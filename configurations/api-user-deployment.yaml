@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: api-user
-        image: muhammmedessa/udagram-api-user:v25
+        image: muhammmedessa/udagram-api-user:v28
         ports:
         - containerPort: 8080
