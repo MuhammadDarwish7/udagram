@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: muhammmedessa/udagram-reverseproxy:v30
+      - image: muhammmedessa/udagram-reverseproxy:v32
         name: reverseproxy
         imagePullPolicy: Always          
         ports:
