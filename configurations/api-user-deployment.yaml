@@ -19,3 +19,10 @@ spec:
         image: muhammmedessa/udagram-api-user:v32
         ports:
         - containerPort: 8080
+        volumeMounts:
+        - name: aws-secret
+          mountPath: "/root/.aws/"
+      volumes:
+      - name: aws-secret
+        configMap:
+          name: aws-secret
